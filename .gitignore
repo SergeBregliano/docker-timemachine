@@ -1,0 +1,4 @@
+appData/
+.env
+.vscode
+docker-compose.override.yml
