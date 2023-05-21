@@ -9,7 +9,7 @@ This docker-compose is based on the [Matt Bentley docker image](https://hub.dock
 To make it run on your [Docker](https://www.docker.com/) install, you'll need to :
 
 - Have [Docker Compose](https://docs.docker.com/compose/install/) running
-- Clone this repos on the server
+- Clone [this repos](https://github.com/SergeBregliano/docker-timemachine) on the server
 - Copy or rename the ``sample.env`` file in ``.env``
 - Configure the ``.env`` file according to your needs
 

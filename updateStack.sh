@@ -3,7 +3,7 @@
 # Update the stack
 echo 'Updating configuration files'
 echo '============================'
-git pull https://gitlab.com/Slt/docker-nextcloud.git master
+git pull https://github.com/SergeBregliano/docker-timemachine.git main
 echo ''
 
 # Stop last stack, delete it, and start the new one
