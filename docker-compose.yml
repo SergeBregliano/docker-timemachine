@@ -8,6 +8,7 @@ services:
       - TM_USERNAME=${USERNAME}
       - PASSWORD=${PASSWORD}
       - SHARE_NAME=TimeMachine
+      - VOLUME_SIZE_LIMIT=${VOLUME_SIZE_LIMIT}
     volumes:
       - ${DATA_PATH}:/opt/${USERNAME}
     ulimits:
