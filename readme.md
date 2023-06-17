@@ -28,11 +28,18 @@ USERNAME=Timemachine
 PASSWORD=Timemachine
 ```
 
-Define the contenaier name. It can be whatever you want if the name is not already use in your Docker
+Define the container name. It can be whatever you want if the name is not already use in your Docker
 
 ```shell
 CONTAINER_NAME=timemachine
 ```
+
+Define the maximum size of the time machine backup. Units can be : K, M, G, T, P
+```shell
+VOLUME_SIZE_LIMIT=750G
+```
+
+
 
 ### Updates
 
