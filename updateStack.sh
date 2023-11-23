@@ -9,17 +9,17 @@ echo ''
 # Stop last stack, delete it, and start the new one
 echo 'Shutting down servers'
 echo '====================='
-docker-compose down
+docker compose down
 echo ''
 
 echo 'Deleting images'
 echo '==============='
-docker-compose rm -f
+docker compose rm -f
 echo ''
 
 echo 'Start new images'
 echo '================'
-docker-compose up -d --remove-orphans
+docker compose up -d --remove-orphans
 echo ''
 
 echo 'Your stack has been correctly updated.'
