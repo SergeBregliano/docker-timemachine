@@ -26,11 +26,6 @@ echo '====================='
 $DOCKERCOMPOSE down
 echo ''
 
-echo 'Deleting images'
-echo '==============='
-$DOCKERCOMPOSE rm -f
-echo ''
-
 echo 'Start new images'
 echo '================'
 $DOCKERCOMPOSE up -d --remove-orphans
